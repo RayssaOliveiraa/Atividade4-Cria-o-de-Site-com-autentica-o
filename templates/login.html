@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles/login.css">
+    
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="my-page-auth">
+        <main>
+            <div class="my-main-content">
+                {% if error %}
+                    <div class="alert-danger">{{ error }}</div>
+                {% endif %}
+                <h1>Login page</h1>
+
+                <form method="POST" action="">
+                    {{ form.hidden_tag() }}
+                    {{ form.username }}
+                    {{ form.password }}
+                    {{ form.submit }}
+                </form>
+
+                <a href="{{url_for('register')}}">Ainda não tem conta? Registre-se</a>
+                <a href="{{url_for('home')}}">Voltar ao início</a>
+            </div>
+        </main>
+        <aside>
+            <img src="../static/assets/cadeado.png" alt="">
+            <p>Sistema de gerenciamento UABJ</p>
+        </aside>
+    </div>
+</body>
+</html>

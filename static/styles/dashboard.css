@@ -1,0 +1,55 @@
+/* Estilos para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  /* Estilos para o header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header a {
+    background-color: #0090a5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  /* Estilos para os cards */
+  .aluno-card {
+    background-color: #0090a5;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .aluno-card h3 {
+    margin: 20px;
+    font-size: 16px;
+    color: white;
+    line-height: 1.4;
+  }
+  

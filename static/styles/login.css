@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #194756;
+}
+
+.my-page-auth {
+    display: flex;
+    max-width: 800px;
+    align-items: stretch;
+    height: 70vh;
+    justify-content: center;
+    margin: 120px auto 20px auto;
+    border-radius: 2em;
+}
+
+main {
+    flex: 1;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 80px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+aside {
+    flex: 1;
+    background: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px 30px 30px 0px;
+    color: #000000;
+}
+
+.my-main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    align-items: stretch;
+    text-align: left;
+}
+
+form input {
+    margin-top: 15px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 16px;
+    background: #fff;
+    border: 1px solid #a8a8b3;
+    width: 100%;
+}
+
+#button{
+    margin-top: 8%;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    background: #0090a5;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 0;
+    transition: filter 0.2s;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #194756;
+}
+
+h1 {
+    font: 700 36px "Manrope", sans-serif;
+    color: #194756;
+}
+
+p {
+    font: 400 15px "Manrope", sans-serif;
+    color: #194756;
+}
+
+img {
+    width: 250px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    height: 20px;
+    padding: 10px;
+}
+.alert-danger hr {
+    border-top-color: #f1b0b7;
+}
+.alert-danger .alert-link {
+    color: #491217;
+}
+  
